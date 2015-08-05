@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+form {
+    padding: 1em 0;
+    text-align: center;
+}
+
+form * {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+fieldset {
+    border: none;
+    padding:0.5 1em;
+}
+
+fieldset legend {
+    padding: 0;
+}
+
+fieldset input {
+    border: none;
+    border-bottom: 4px solid #333;
+    font-size:2em;
+    text-align: center;
+    width: 5em;
+}
+
+#compare-builds {
+    font-size: 2em;
+    width: 10em;
+}
+
+#loading {
+    display: none;
+}
